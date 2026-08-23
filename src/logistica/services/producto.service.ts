@@ -1,4 +1,4 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import {
   CreateProductoDto,
   ProductoResponseDto,
@@ -10,7 +10,7 @@ import { Producto } from '../repositories/entities';
 
 @Injectable()
 export class ProductoService {
-  constructor(private readonly productoRepository: ProductoRepository) {}
+  constructor(private readonly productoRepository: ProductoRepository) { }
 
   async create(dto: CreateProductoDto): Promise<ProductoResponseDto> {
     const producto = await this.productoRepository.create(dto);
@@ -45,11 +45,20 @@ export class ProductoService {
 
   async delete(id: string): Promise<void> {
     const producto = await this.productoRepository.findById(id);
+
     if (!producto) {
-      throw new NotFoundException(`Producto con id ${id} no encontrado`);
+      throw new NotFoundException(
+        `Producto con id ${id} no encontrado`,
+      );
     }
 
-    await this.productoRepository.delete(id);
+    try {
+      await this.productoRepository.delete(id);
+    } catch (error) {
+      throw new BadRequestException(
+        'No se puede eliminar el producto porque tiene información relacionada.',
+      );
+    }
   }
 
   async exists(id: string): Promise<boolean> {
