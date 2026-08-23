@@ -1,6 +1,6 @@
 import { BadRequestException, NotFoundException } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
-import { TiendaClientMock } from '../clients';
+import { TiendaService } from '../../identificacion/services/tienda.service';
 import { CreatePedidoDto, QueryPedidoDto, UpdatePedidoDto } from '../dtos';
 import { PedidoRepository, ProductoRepository } from '../repositories';
 import { EstadoPedido } from '../repositories/entities';
@@ -10,7 +10,7 @@ describe('PedidoService', () => {
   let service: PedidoService;
   let repository: jest.Mocked<PedidoRepository>;
   let productoRepository: jest.Mocked<ProductoRepository>;
-  let tiendaClient: jest.Mocked<TiendaClientMock>;
+  let tiendaService: jest.Mocked<TiendaService>;
 
   beforeEach(async () => {
     const mockRepository = {
@@ -25,7 +25,7 @@ describe('PedidoService', () => {
       findById: jest.fn(),
     };
 
-    const mockTiendaClient = {
+    const mockTiendaService = {
       exists: jest.fn(),
     };
 
@@ -41,8 +41,8 @@ describe('PedidoService', () => {
           useValue: mockProductoRepository,
         },
         {
-          provide: TiendaClientMock,
-          useValue: mockTiendaClient,
+          provide: TiendaService,
+          useValue: mockTiendaService,
         },
       ],
     }).compile();
@@ -50,7 +50,7 @@ describe('PedidoService', () => {
     service = module.get<PedidoService>(PedidoService);
     repository = module.get(PedidoRepository);
     productoRepository = module.get(ProductoRepository);
-    tiendaClient = module.get(TiendaClientMock);
+    tiendaService = module.get(TiendaService);
   });
 
   it('should be defined', () => {
@@ -76,7 +76,9 @@ describe('PedidoService', () => {
           },
         ],
       };
+
       const producto = { id: 'prod-1' };
+
       const entity = {
         id: 'ped-1',
         ...dto,
@@ -84,15 +86,16 @@ describe('PedidoService', () => {
         updatedAt: new Date(),
       };
 
-      tiendaClient.exists.mockResolvedValue(true);
+      tiendaService.exists.mockResolvedValue(true);
       productoRepository.findById.mockResolvedValue(producto as any);
       repository.create.mockResolvedValue(entity as any);
 
       const result = await service.create(dto);
 
-      expect(tiendaClient.exists).toHaveBeenCalledWith('tienda-1');
+      expect(tiendaService.exists).toHaveBeenCalledWith('tienda-1');
       expect(productoRepository.findById).toHaveBeenCalledWith('prod-1');
       expect(repository.create).toHaveBeenCalled();
+
       expect(result).toEqual(
         expect.objectContaining({
           id: 'ped-1',
@@ -113,9 +116,11 @@ describe('PedidoService', () => {
         items: [],
       };
 
-      tiendaClient.exists.mockResolvedValue(false);
+      tiendaService.exists.mockResolvedValue(false);
 
-      await expect(service.create(dto)).rejects.toThrow(BadRequestException);
+      await expect(service.create(dto)).rejects.toThrow(
+        BadRequestException,
+      );
     });
 
     it('should throw BadRequestException when producto does not exist', async () => {
@@ -137,16 +142,19 @@ describe('PedidoService', () => {
         ],
       };
 
-      tiendaClient.exists.mockResolvedValue(true);
+      tiendaService.exists.mockResolvedValue(true);
       productoRepository.findById.mockResolvedValue(null);
 
-      await expect(service.create(dto)).rejects.toThrow(BadRequestException);
+      await expect(service.create(dto)).rejects.toThrow(
+        BadRequestException,
+      );
     });
   });
 
   describe('findAll', () => {
     it('should return mapped pedidos', async () => {
       const query: QueryPedidoDto = { tiendaId: 'tienda-1' };
+
       const entities = [
         {
           id: 'ped-1',
@@ -204,7 +212,10 @@ describe('PedidoService', () => {
 
   describe('update', () => {
     it('should update and return pedido', async () => {
-      const dto: UpdatePedidoDto = { estado: EstadoPedido.DESPACHADO };
+      const dto: UpdatePedidoDto = {
+        estado: EstadoPedido.DESPACHADO,
+      };
+
       const entity = {
         id: 'ped-1',
         identificador: 'PED-001',
@@ -217,7 +228,11 @@ describe('PedidoService', () => {
         createdAt: new Date(),
         updatedAt: new Date(),
       };
-      const updated = { ...entity, estado: EstadoPedido.DESPACHADO };
+
+      const updated = {
+        ...entity,
+        estado: EstadoPedido.DESPACHADO,
+      };
 
       repository.findById.mockResolvedValue(entity as any);
       repository.update.mockResolvedValue(updated as any);
@@ -230,9 +245,9 @@ describe('PedidoService', () => {
     it('should throw NotFoundException when pedido not found', async () => {
       repository.findById.mockResolvedValue(null);
 
-      await expect(service.update('non-existent', {})).rejects.toThrow(
-        NotFoundException,
-      );
+      await expect(
+        service.update('non-existent', {}),
+      ).rejects.toThrow(NotFoundException);
     });
   });
 
@@ -261,9 +276,9 @@ describe('PedidoService', () => {
     it('should throw NotFoundException when pedido not found', async () => {
       repository.findById.mockResolvedValue(null);
 
-      await expect(service.delete('non-existent')).rejects.toThrow(
-        NotFoundException,
-      );
+      await expect(
+        service.delete('non-existent'),
+      ).rejects.toThrow(NotFoundException);
     });
   });
 });

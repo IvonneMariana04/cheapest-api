@@ -27,8 +27,8 @@ export class Tienda {
   @Column('varchar', { length: 100 })
   nombreComercial: string;
 
-  @Column('varchar', { length: 100 })
-  responsable: string;
+  @Column('uuid')
+  responsableId: string;
   // es user pero ahorita lo cambio
   // TODO: Todavia me faltan cosas
 

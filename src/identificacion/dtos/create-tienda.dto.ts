@@ -2,6 +2,7 @@ import {
   IsString,
   IsUUID,
   MaxLength,
+  IsEnum,
 } from 'class-validator';
 
 import { EstadoCaptacion } from '../repositories/entities';
@@ -31,5 +32,6 @@ export class CreateTiendaDto {
   @MaxLength(50)
   telefono: string;
 
+  @IsEnum(EstadoCaptacion)
   estadoCaptacion: EstadoCaptacion;
 }
