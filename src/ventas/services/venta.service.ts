@@ -4,7 +4,7 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { ProductoService } from '../../logistica/services/producto.service';
-import { TiendaClientMock } from '../clients';
+import { TiendaClient } from '../clients';
 import {
   CreateVentaDto,
   ItemVentaResponseDto,
@@ -22,7 +22,7 @@ export class VentaService {
   constructor(
     private readonly ventaRepository: VentaRepository,
     private readonly productoExternoRepository: ProductoExternoRepository,
-    private readonly tiendaClient: TiendaClientMock,
+    private readonly tiendaClient: TiendaClient,
     private readonly productoService: ProductoService,
   ) {}
 

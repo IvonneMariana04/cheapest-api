@@ -7,7 +7,7 @@ async function bootstrap() {
   // Enable CORS for API access
   app.enableCors();
 
-  const port = process.env.PORT || 3002;
+  const port = process.env.PORT || 3006;
   await app.listen(port);
 }
 void bootstrap();

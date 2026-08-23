@@ -12,7 +12,7 @@ import { ProductoExternoController, VentaController } from './controllers';
 // Clients Mock
 import { DatabaseModule } from '../datasources/database.module';
 import { LogisticaModule } from '../logistica/logistica.module';
-import { TiendaClientMock } from './clients';
+import { TiendaClient } from './clients';
 import { repositoryProviders } from './repositories/repository.providers';
 
 @Module({
@@ -27,7 +27,7 @@ import { repositoryProviders } from './repositories/repository.providers';
     ProductoExternoService,
     VentaService,
     // Mock Clients
-    TiendaClientMock,
+    TiendaClient,
   ],
   exports: [VentaService],
 })
