@@ -1,6 +1,7 @@
 import requests
 import time
 import statistics
+import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 URL = "http://localhost:3000/logistics/productos/disponibles-tendero"
@@ -26,23 +27,24 @@ def request():
         return {
             "tiempo": tiempo,
             "status": response.status_code,
-            "respuesta": response.text,
             "ok": response.status_code == 200
         }
 
-    except Exception as e:
+    except Exception:
         tiempo = (time.perf_counter() - inicio) * 1000
 
         return {
             "tiempo": tiempo,
             "status": 0,
-            "respuesta": str(e),
             "ok": False
         }
 
 
 def percentile(data, p):
     data = sorted(data)
+
+    if not data:
+        return 0
 
     index = int(len(data) * p / 100)
 
@@ -52,49 +54,81 @@ def percentile(data, p):
     return data[index]
 
 
-def prueba(usuarios, ramp_up):
+def prueba(usuarios, ramp_up, duration=None):
 
-    print("\n" + "=" * 60)
-    print(f"PRUEBA: {usuarios} usuarios | Ramp-up: {ramp_up}s")
-    print("=" * 60)
+    print("\n" + "=" * 70)
+    print(
+        f"PRUEBA: {usuarios} usuarios | "
+        f"Ramp-up: {ramp_up}s | "
+        f"Duración: {duration if duration else 'N/A'}"
+    )
+    print("=" * 70)
 
     resultados = []
 
-    intervalo = ramp_up / usuarios
-
     inicio_total = time.perf_counter()
 
-    with ThreadPoolExecutor(max_workers=usuarios) as executor:
+    # ---------------------------------------------------------
+    # SIN DURACIÓN:
+    # cada usuario hace una petición.
+    # Se utiliza para Smoke, Baja, Media y Normal.
+    # ---------------------------------------------------------
 
-        futures = []
+    if duration is None:
 
-        for _ in range(usuarios):
+        intervalo = ramp_up / usuarios
 
-            futures.append(
-                executor.submit(request)
-            )
+        with ThreadPoolExecutor(max_workers=usuarios) as executor:
 
-            time.sleep(intervalo)
+            futures = []
 
-        for future in as_completed(futures):
-            resultados.append(
-                future.result()
-            )
-            
-        print("\nResultados individuales:")
-            
-        for i, r in enumerate(resultados, 1):
-            print(
-                f"Request {i}: "
-                f"status={r['status']} | "
-                f"tiempo={r['tiempo']:.2f} ms | "
-                f"ok={r['ok']}"
-            )
+            for _ in range(usuarios):
 
-            if not r["ok"]:
-                print(f"  Respuesta: {r['respuesta']}")
+                futures.append(
+                    executor.submit(request)
+                )
 
-    duracion = time.perf_counter() - inicio_total
+                time.sleep(intervalo)
+
+            for future in as_completed(futures):
+                resultados.append(future.result())
+
+    # ---------------------------------------------------------
+    # CON DURACIÓN:
+    # se crean usuarios progresivamente durante el ramp-up.
+    # Después se mantiene la carga durante "duration" segundos.
+    # ---------------------------------------------------------
+
+    else:
+
+        with ThreadPoolExecutor(max_workers=usuarios) as executor:
+
+            futures = []
+
+            intervalo = ramp_up / usuarios
+
+            inicio_ramp_up = time.perf_counter()
+
+            for _ in range(usuarios):
+
+                futures.append(
+                    executor.submit(request)
+                )
+
+                time.sleep(intervalo)
+
+            # Esperamos hasta completar la duración solicitada
+            transcurrido = time.perf_counter() - inicio_ramp_up
+
+            restante = duration - transcurrido
+
+            if restante > 0:
+                time.sleep(restante)
+
+            for future in as_completed(futures):
+                resultados.append(future.result())
+
+    duracion_real = time.perf_counter() - inicio_total
 
     tiempos = [
         r["tiempo"]
@@ -108,24 +142,81 @@ def prueba(usuarios, ramp_up):
 
     errores = len(resultados) - exitosas
 
+    error_pct = (
+        errores / len(resultados) * 100
+        if resultados
+        else 0
+    )
+
+    throughput = (
+        len(resultados) / duracion_real
+        if duracion_real > 0
+        else 0
+    )
+
+    print("\nResultados:")
     print(f"Requests:      {len(resultados)}")
     print(f"Exitosas:      {exitosas}")
     print(f"Errores:       {errores}")
-    print(f"Duración:      {duracion:.2f} s")
-    print(f"Promedio:      {statistics.mean(tiempos):.2f} ms")
-    print(f"P95:           {percentile(tiempos, 95):.2f} ms")
-    print(f"P99:           {percentile(tiempos, 99):.2f} ms")
-    print(f"Mínimo:        {min(tiempos):.2f} ms")
-    print(f"Máximo:        {max(tiempos):.2f} ms")
+    print(f"Error %:       {error_pct:.2f}%")
+    print(f"Duración:      {duracion_real:.2f} s")
+    print(f"Throughput:    {throughput:.2f} req/s")
 
-    p99 = percentile(tiempos, 99)
+    if tiempos:
 
-    if p99 < 1000:
-        print("ASR1: CUMPLE ✓")
-    else:
-        print("ASR1: NO CUMPLE ✗")
+        p95 = percentile(tiempos, 95)
+        p99 = percentile(tiempos, 99)
+
+        print(f"Promedio:      {statistics.mean(tiempos):.2f} ms")
+        print(f"P95:           {p95:.2f} ms")
+        print(f"P99:           {p99:.2f} ms")
+        print(f"Mínimo:        {min(tiempos):.2f} ms")
+        print(f"Máximo:        {max(tiempos):.2f} ms")
+
+        if p99 < 1000:
+            print("ASR1: CUMPLE ✓")
+        else:
+            print("ASR1: NO CUMPLE ✗")
+
+    return {
+        "usuarios": usuarios,
+        "ramp_up": ramp_up,
+        "duracion": duracion_real,
+        "requests": len(resultados),
+        "errores": errores,
+        "error_pct": error_pct,
+        "throughput": throughput,
+        "p95": percentile(tiempos, 95),
+        "p99": percentile(tiempos, 99)
+    }
 
 
 if __name__ == "__main__":
 
-    prueba(5, 5)
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--users",
+        type=int,
+        required=True
+    )
+
+    parser.add_argument(
+        "--ramp-up",
+        type=int,
+        required=True
+    )
+
+    parser.add_argument(
+        "--duration",
+        type=int,
+        default=None
+    )
+
+    args = parser.parse_args()
+
+    prueba(
+        args.users,
+        args.ramp_up,
+        args.duration
+    )
