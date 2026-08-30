@@ -37,6 +37,18 @@ export class ProductoController {
     return this.productoService.findAll(query);
   }
 
+  // para el lab 2 ASR1
+  @Get('disponibles-tendero')
+  async findProductosDisponiblesParaTendero(
+    @Query('tiendaId') tiendaId: string,
+    @Query('zona') zona: string,
+  ): Promise<ProductoResponseDto[]> {
+    return this.productoService.findProductosDisponiblesParaTendero(
+      tiendaId,
+      zona,
+    );
+  }
+//
   @Get(':id')
   async findById(@Param('id') id: string): Promise<ProductoResponseDto> {
     return this.productoService.findById(id);

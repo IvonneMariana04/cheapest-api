@@ -57,6 +57,20 @@ export class ProductoService {
     return producto !== null;
   }
 
+  // asr1
+  async findProductosDisponiblesParaTendero(
+    tiendaId: string,
+    zona: string,
+  ): Promise<ProductoResponseDto[]> {
+    const productos =
+      await this.productoRepository.findProductosDisponiblesParaTendero(
+        tiendaId,
+        zona, 
+      );
+
+    return productos.map((producto) => this.mapToResponse(producto));
+  }
+
   private mapToResponse(producto: Producto): ProductoResponseDto {
     return {
       id: producto.id,
