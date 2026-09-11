@@ -28,7 +28,7 @@ load:
   catalogos: 100
   catalogos_productos: 10000
   promociones: 200
-  pedidos: 2000
+  pedidos: 20000
   items_pedido: 60000
   despachos: 10000
   disponibilidad_zona: 5000
