@@ -192,7 +192,7 @@ export class DatabaseSeederService implements OnModuleInit {
   }
 
   private loadSeedCounts(): LoadSeedCounts {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
     const config = yaml.load(
       fs.readFileSync(path.join(__dirname, 'load-seed.yaml'), 'utf8'),
     ) as LoadSeedConfig;
@@ -227,6 +227,7 @@ export class DatabaseSeederService implements OnModuleInit {
         tiendas < this.tiendaIds.length
       ) {
         throw new Error(
+          // eslint-disable-next-line @typescript-eslint/no-base-to-string
           `Invalid load-seed count for "tiendas": ${String(tiendas)} (mínimo ${this.tiendaIds.length})`,
         );
       }
@@ -234,14 +235,18 @@ export class DatabaseSeederService implements OnModuleInit {
         ...this.tiendaIds,
         ...Array.from(
           { length: tiendas - this.tiendaIds.length },
-          (_, i) => `eeeeeeee-0000-4000-8000-${String(i + 1).padStart(12, '0')}`,
+          (_, i) =>
+            `eeeeeeee-0000-4000-8000-${String(i + 1).padStart(12, '0')}`,
         ),
       ];
     }
 
     if (zonas !== undefined) {
       if (typeof zonas !== 'number' || !Number.isInteger(zonas) || zonas < 1) {
-        throw new Error(`Invalid load-seed count for "zonas": ${String(zonas)}`);
+        throw new Error(
+          // eslint-disable-next-line @typescript-eslint/no-base-to-string
+          `Invalid load-seed count for "zonas": ${String(zonas)}`,
+        );
       }
       this.zonaNames = Array.from({ length: zonas }, (_, i) =>
         i < this.zonaBaseNames.length ? this.zonaBaseNames[i] : `Zona ${i + 1}`,
@@ -264,6 +269,7 @@ export class DatabaseSeederService implements OnModuleInit {
         this.paretoDist = { pesoCabeza, fraccionCabeza };
       } else if (tipo !== 'uniforme') {
         throw new Error(
+          // eslint-disable-next-line @typescript-eslint/no-base-to-string
           `Invalid load-seed "distribucion.tipo": ${String(tipo)} (use "uniforme" o "pareto")`,
         );
       }
@@ -278,6 +284,7 @@ export class DatabaseSeederService implements OnModuleInit {
     if (value === undefined) return defaultValue;
     if (typeof value !== 'number' || value <= 0 || value >= 1) {
       throw new Error(
+        // eslint-disable-next-line @typescript-eslint/no-base-to-string
         `Invalid load-seed "${key}": ${String(value)} (debe estar entre 0 y 1)`,
       );
     }

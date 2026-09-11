@@ -1,0 +1,7 @@
+timestamp_iso,method,endpoint,status_code,latency_ms,error
+2026-09-11T17:44:08.258846+00:00,POST,/logistics/pedidos,201,135.03,
+2026-09-11T17:44:18.397702+00:00,POST,/logistics/pedidos,201,126.29,
+2026-09-11T17:44:19.538722+00:00,POST,/logistics/pedidos,201,90.63,
+2026-09-11T17:44:20.644693+00:00,POST,/logistics/pedidos,201,68.93,
+2026-09-11T17:44:21.719362+00:00,POST,/logistics/pedidos,201,94.66,
+2026-09-11T17:44:22.828642+00:00,POST,/logistics/pedidos,201,95.67,
