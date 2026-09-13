@@ -195,21 +195,47 @@ async def worker(
     rate,
     ramp_up,
     start_time,
+    semaphore,
     tasks
 ):
 
-    while time.perf_counter() < stop_time:
+    request_number = 0
+
+    while True:
 
         now = time.perf_counter()
 
         elapsed = now - start_time
 
+        if elapsed >= (stop_time - start_time):
+            break
+
         if elapsed < ramp_up:
-            current_rate = rate * (elapsed / ramp_up)
+
+            progress = elapsed / ramp_up
+
+            current_rate = rate * (
+                0.25 + 0.75 * progress
+            )
+
         else:
+
             current_rate = rate
 
-        current_rate = max(current_rate, 0.1)
+        interval = 1 / current_rate
+
+        target_time = (
+            start_time
+            + request_number * interval
+        )
+
+        now = time.perf_counter()
+
+        if target_time > now:
+
+            await asyncio.sleep(
+                target_time - now
+            )
 
         body = (
             body_fn()
@@ -217,20 +243,24 @@ async def worker(
             else None
         )
 
-        tasks.append(
-            asyncio.create_task(
-                send_request(
+        async def execute_request(body=body):
+
+            async with semaphore:
+
+                return await send_request(
                     client,
                     method,
                     endpoint,
                     body
                 )
+
+        tasks.append(
+            asyncio.create_task(
+                execute_request()
             )
         )
 
-        interval = 1 / current_rate
-
-        await asyncio.sleep(interval)
+        request_number += 1
 
 # ============================================================
 # EJECUTAR PRUEBA
@@ -297,6 +327,10 @@ async def run_load_test(
         15.0
     )
 
+    semaphore = asyncio.Semaphore(
+        users
+    )
+
     async with httpx.AsyncClient(
         limits=limits,
         timeout=timeout
@@ -322,6 +356,7 @@ async def run_load_test(
             rate,
             ramp_up,
             start_time,
+            semaphore,
             tasks
         )
 
@@ -336,6 +371,7 @@ async def run_load_test(
             )
 
     return results
+
 
 # ============================================================
 # PERCENTILES
