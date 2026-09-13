@@ -32,7 +32,8 @@ import httpx
 # CONFIGURACIÓN
 # ============================================================
 
-BASE_URL = "http://localhost:3000"
+#BASE_URL = "http://localhost:3000"
+BASE_URL ="http://Cheapest-alb-1651340561.us-east-1.elb.amazonaws.com"
 
 TIENDA_ID = "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb"
 ZONA = "Zona Norte"
@@ -190,10 +191,25 @@ async def worker(
     endpoint,
     body_fn,
     stop_time,
-    results
+    results,
+    rate,
+    ramp_up,
+    start_time,
+    tasks
 ):
 
     while time.perf_counter() < stop_time:
+
+        now = time.perf_counter()
+
+        elapsed = now - start_time
+
+        if elapsed < ramp_up:
+            current_rate = rate * (elapsed / ramp_up)
+        else:
+            current_rate = rate
+
+        current_rate = max(current_rate, 0.1)
 
         body = (
             body_fn()
@@ -201,27 +217,30 @@ async def worker(
             else None
         )
 
-
-        result = await send_request(
-            client,
-            method,
-            endpoint,
-            body
+        tasks.append(
+            asyncio.create_task(
+                send_request(
+                    client,
+                    method,
+                    endpoint,
+                    body
+                )
+            )
         )
 
+        interval = 1 / current_rate
 
-        results.append(result)
-
+        await asyncio.sleep(interval)
 
 # ============================================================
 # EJECUTAR PRUEBA
 # ============================================================
-
 async def run_load_test(
     endpoint,
     users,
     ramp_up,
     duration,
+    rate,
     custom_body=None
 ):
 
@@ -238,7 +257,6 @@ async def run_load_test(
 
         body_fn = None
 
-
     else:
 
         method = "POST"
@@ -246,7 +264,6 @@ async def run_load_test(
         api_endpoint = (
             "/logistics/pedidos"
         )
-
 
         if custom_body is not None:
 
@@ -257,7 +274,6 @@ async def run_load_test(
 
             body_fn = build_post_body
 
-
     print()
     print("=" * 60)
     print(f"PRUEBA {endpoint}")
@@ -265,33 +281,28 @@ async def run_load_test(
     print(f"Usuarios:       {users}")
     print(f"Ramp-up:        {ramp_up} segundos")
     print(f"Duración:       {duration} segundos")
+    print(f"Tasa objetivo:  {rate} req/s")
     print(f"Endpoint:       {api_endpoint}")
     print("=" * 60)
     print()
 
-
     results = []
-
 
     limits = httpx.Limits(
         max_connections=users,
         max_keepalive_connections=users
     )
 
-
     timeout = httpx.Timeout(
         15.0
     )
-
 
     async with httpx.AsyncClient(
         limits=limits,
         timeout=timeout
     ) as client:
 
-
         start_time = time.perf_counter()
-
 
         stop_time = (
             start_time
@@ -299,59 +310,32 @@ async def run_load_test(
             + duration
         )
 
-
         tasks = []
 
-
-        # Incorporación progresiva
-        # de los usuarios.
-        delay_between_users = (
-            ramp_up / users
-            if users > 0
-            else 0
+        await worker(
+            client,
+            method,
+            api_endpoint,
+            body_fn,
+            stop_time,
+            results,
+            rate,
+            ramp_up,
+            start_time,
+            tasks
         )
 
+        if tasks:
 
-        for i in range(users):
-
-            delay = (
-                delay_between_users * i
+            completed = await asyncio.gather(
+                *tasks
             )
 
-
-            async def delayed_worker(
-                delay=delay
-            ):
-
-                await asyncio.sleep(
-                    delay
-                )
-
-
-                await worker(
-                    client,
-                    method,
-                    api_endpoint,
-                    body_fn,
-                    stop_time,
-                    results
-                )
-
-
-            tasks.append(
-                asyncio.create_task(
-                    delayed_worker()
-                )
+            results.extend(
+                completed
             )
-
-
-        await asyncio.gather(
-            *tasks
-        )
-
 
     return results
-
 
 # ============================================================
 # PERCENTILES
@@ -595,7 +579,12 @@ def main():
         default=60
     )
 
-
+    parser.add_argument(
+        "--rate",
+        type=float,
+        required=True
+    )
+    
     parser.add_argument(
         "--body",
         type=str,
@@ -624,13 +613,13 @@ def main():
 
     start = time.perf_counter()
 
-
     results = asyncio.run(
         run_load_test(
             args.endpoint,
             args.users,
             args.ramp_up,
             args.duration,
+            args.rate,
             custom_body
         )
     )
