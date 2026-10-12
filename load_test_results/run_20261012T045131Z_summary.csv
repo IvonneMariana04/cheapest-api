@@ -1,0 +1,3 @@
+run_id,generated_at_utc,duration_s,total_users,get_percent,post_percent,target_rate_total_req_s,endpoint_type,total_requests,successful_requests,errors,error_pct,throughput_req_s,avg_ms,p95_ms,p99_ms
+run_20261012T045131Z,2026-10-12T04:51:31.291113+00:00,50,24000,70.0,30.0,8.333,GET,1459,1005,454,31.12,5.836,5263.73,5755.89,5922.7
+run_20261012T045131Z,2026-10-12T04:51:31.291113+00:00,50,24000,70.0,30.0,8.333,POST,625,33,592,94.72,2.5,8657.7,14084.16,14548.88

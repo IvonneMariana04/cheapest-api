@@ -1,0 +1,501 @@
+run_id,timestamp_iso,endpoint_type,method,url,status_code,latency_ms,error
+run_20261012T044409Z,2026-10-12T04:44:09.950345+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,417.57,
+run_20261012T044409Z,2026-10-12T04:44:11.550965+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,175.18,
+run_20261012T044409Z,2026-10-12T04:44:13.038257+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,158.74,
+run_20261012T044409Z,2026-10-12T04:44:14.466295+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,209.58,
+run_20261012T044409Z,2026-10-12T04:44:15.813609+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,155.08,
+run_20261012T044409Z,2026-10-12T04:44:17.098565+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,197.06,
+run_20261012T044409Z,2026-10-12T04:44:18.347266+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,160.82,
+run_20261012T044409Z,2026-10-12T04:44:19.528673+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,206.0,
+run_20261012T044409Z,2026-10-12T04:44:20.681238+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,161.68,
+run_20261012T044409Z,2026-10-12T04:44:21.795852+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,169.3,
+run_20261012T044409Z,2026-10-12T04:44:22.879067+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,163.62,
+run_20261012T044409Z,2026-10-12T04:44:23.924647+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,167.91,
+run_20261012T044409Z,2026-10-12T04:44:24.947898+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,185.84,
+run_20261012T044409Z,2026-10-12T04:44:25.939354+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,282.48,
+run_20261012T044409Z,2026-10-12T04:44:26.906493+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,236.56,
+run_20261012T044409Z,2026-10-12T04:44:27.867214+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,165.12,
+run_20261012T044409Z,2026-10-12T04:44:28.781790+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,162.88,
+run_20261012T044409Z,2026-10-12T04:44:29.692241+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,238.54,
+run_20261012T044409Z,2026-10-12T04:44:30.593131+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,166.16,
+run_20261012T044409Z,2026-10-12T04:44:31.462501+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,438.28,
+run_20261012T044409Z,2026-10-12T04:44:32.314523+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,236.49,
+run_20261012T044409Z,2026-10-12T04:44:33.154620+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,214.73,
+run_20261012T044409Z,2026-10-12T04:44:33.983122+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,205.44,
+run_20261012T044409Z,2026-10-12T04:44:34.793709+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,214.02,
+run_20261012T044409Z,2026-10-12T04:44:35.594437+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,174.15,
+run_20261012T044409Z,2026-10-12T04:44:36.373269+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,209.32,
+run_20261012T044409Z,2026-10-12T04:44:37.154312+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,162.74,
+run_20261012T044409Z,2026-10-12T04:44:37.922867+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,174.74,
+run_20261012T044409Z,2026-10-12T04:44:38.669940+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,193.03,
+run_20261012T044409Z,2026-10-12T04:44:39.411487+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,208.5,
+run_20261012T044409Z,2026-10-12T04:44:40.141317+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,194.44,
+run_20261012T044409Z,2026-10-12T04:44:40.871356+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,162.6,
+run_20261012T044409Z,2026-10-12T04:44:41.572866+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,405.67,
+run_20261012T044409Z,2026-10-12T04:44:42.286890+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,259.73,
+run_20261012T044409Z,2026-10-12T04:44:42.971336+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,168.05,
+run_20261012T044409Z,2026-10-12T04:44:43.670111+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,234.82,
+run_20261012T044409Z,2026-10-12T04:44:44.338702+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,248.27,
+run_20261012T044409Z,2026-10-12T04:44:45.010061+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,380.39,
+run_20261012T044409Z,2026-10-12T04:44:45.686387+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,230.8,
+run_20261012T044409Z,2026-10-12T04:44:46.333162+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,197.02,
+run_20261012T044409Z,2026-10-12T04:44:46.983850+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,223.11,
+run_20261012T044409Z,2026-10-12T04:44:47.621074+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,190.11,
+run_20261012T044409Z,2026-10-12T04:44:48.258069+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,220.78,
+run_20261012T044409Z,2026-10-12T04:44:48.898545+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,164.32,
+run_20261012T044409Z,2026-10-12T04:44:49.504901+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,206.47,
+run_20261012T044409Z,2026-10-12T04:44:50.143579+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,168.36,
+run_20261012T044409Z,2026-10-12T04:44:50.745320+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,184.69,
+run_20261012T044409Z,2026-10-12T04:44:51.354437+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,165.39,
+run_20261012T044409Z,2026-10-12T04:44:51.944227+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,204.71,
+run_20261012T044409Z,2026-10-12T04:44:52.550724+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,300.12,
+run_20261012T044409Z,2026-10-12T04:44:53.138330+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,225.59,
+run_20261012T044409Z,2026-10-12T04:44:53.726122+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,314.58,
+run_20261012T044409Z,2026-10-12T04:44:54.302433+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,502.75,
+run_20261012T044409Z,2026-10-12T04:44:54.870829+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,235.01,
+run_20261012T044409Z,2026-10-12T04:44:55.442970+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,214.59,
+run_20261012T044409Z,2026-10-12T04:44:56.016228+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,223.26,
+run_20261012T044409Z,2026-10-12T04:44:56.576226+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,301.27,
+run_20261012T044409Z,2026-10-12T04:44:57.132313+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,234.41,
+run_20261012T044409Z,2026-10-12T04:44:57.676652+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,338.73,
+run_20261012T044409Z,2026-10-12T04:44:58.238421+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,265.91,
+run_20261012T044409Z,2026-10-12T04:44:58.781472+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,328.68,
+run_20261012T044409Z,2026-10-12T04:44:59.313937+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,11431.84,
+run_20261012T044409Z,2026-10-12T04:44:59.857221+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15239.05,timeout
+run_20261012T044409Z,2026-10-12T04:45:00.385149+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15011.78,timeout
+run_20261012T044409Z,2026-10-12T04:45:00.912743+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15021.34,timeout
+run_20261012T044409Z,2026-10-12T04:45:01.441204+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15237.22,timeout
+run_20261012T044409Z,2026-10-12T04:45:01.953839+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15008.67,timeout
+run_20261012T044409Z,2026-10-12T04:45:02.480056+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15220.93,timeout
+run_20261012T044409Z,2026-10-12T04:45:02.987707+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15227.49,timeout
+run_20261012T044409Z,2026-10-12T04:45:03.517194+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15008.74,timeout
+run_20261012T044409Z,2026-10-12T04:45:04.014838+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15017.5,timeout
+run_20261012T044409Z,2026-10-12T04:45:04.512073+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15226.79,timeout
+run_20261012T044409Z,2026-10-12T04:45:05.020389+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15012.58,timeout
+run_20261012T044409Z,2026-10-12T04:45:05.514555+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15019.01,timeout
+run_20261012T044409Z,2026-10-12T04:45:06.023736+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15024.39,timeout
+run_20261012T044409Z,2026-10-12T04:45:06.504481+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15022.53,timeout
+run_20261012T044409Z,2026-10-12T04:45:07.002450+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15037.58,timeout
+run_20261012T044409Z,2026-10-12T04:45:07.481514+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15026.29,timeout
+run_20261012T044409Z,2026-10-12T04:45:07.962891+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15224.41,timeout
+run_20261012T044409Z,2026-10-12T04:45:08.450492+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15014.48,timeout
+run_20261012T044409Z,2026-10-12T04:45:08.929661+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15009.94,timeout
+run_20261012T044409Z,2026-10-12T04:45:09.395142+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15232.61,timeout
+run_20261012T044409Z,2026-10-12T04:45:09.874726+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15008.87,timeout
+run_20261012T044409Z,2026-10-12T04:45:10.338985+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15020.54,timeout
+run_20261012T044409Z,2026-10-12T04:45:10.815829+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15019.56,timeout
+run_20261012T044409Z,2026-10-12T04:45:11.266109+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15014.91,timeout
+run_20261012T044409Z,2026-10-12T04:45:11.745832+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15218.88,timeout
+run_20261012T044409Z,2026-10-12T04:45:12.198120+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.29,timeout
+run_20261012T044409Z,2026-10-12T04:45:12.657464+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15022.11,timeout
+run_20261012T044409Z,2026-10-12T04:45:13.104804+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15209.16,timeout
+run_20261012T044409Z,2026-10-12T04:45:13.572342+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15018.37,timeout
+run_20261012T044409Z,2026-10-12T04:45:14.008076+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15012.6,timeout
+run_20261012T044409Z,2026-10-12T04:45:14.458923+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15016.23,timeout
+run_20261012T044409Z,2026-10-12T04:45:14.909037+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15011.44,timeout
+run_20261012T044409Z,2026-10-12T04:45:15.356693+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15274.22,timeout
+run_20261012T044409Z,2026-10-12T04:45:15.790783+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15215.99,timeout
+run_20261012T044409Z,2026-10-12T04:45:16.237572+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15018.73,timeout
+run_20261012T044409Z,2026-10-12T04:45:16.673105+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15212.57,timeout
+run_20261012T044409Z,2026-10-12T04:45:17.106125+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15011.23,timeout
+run_20261012T044409Z,2026-10-12T04:45:17.546576+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15009.72,timeout
+run_20261012T044409Z,2026-10-12T04:45:17.962671+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15214.69,timeout
+run_20261012T044409Z,2026-10-12T04:45:18.399688+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15197.53,timeout
+run_20261012T044409Z,2026-10-12T04:45:18.835106+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15211.29,timeout
+run_20261012T044409Z,2026-10-12T04:45:19.254129+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15014.16,timeout
+run_20261012T044409Z,2026-10-12T04:45:19.673583+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15010.09,timeout
+run_20261012T044409Z,2026-10-12T04:45:20.093187+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15011.17,timeout
+run_20261012T044409Z,2026-10-12T04:45:20.529503+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15023.21,timeout
+run_20261012T044409Z,2026-10-12T04:45:20.933815+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15244.28,timeout
+run_20261012T044409Z,2026-10-12T04:45:21.354883+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15217.81,timeout
+run_20261012T044409Z,2026-10-12T04:45:21.757373+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15018.1,timeout
+run_20261012T044409Z,2026-10-12T04:45:27.781917+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,9141.6,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:31.604450+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5339.19,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:22.190637+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15010.83,timeout
+run_20261012T044409Z,2026-10-12T04:45:22.579834+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15016.36,timeout
+run_20261012T044409Z,2026-10-12T04:45:28.168738+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,9530.89,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:25.019184+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,12822.63,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:22.999077+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15014.61,timeout
+run_20261012T044409Z,2026-10-12T04:45:28.554437+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,9556.9,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:23.399423+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15028.05,timeout
+run_20261012T044409Z,2026-10-12T04:45:23.814655+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15022.47,timeout
+run_20261012T044409Z,2026-10-12T04:45:24.215198+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15008.47,timeout
+run_20261012T044409Z,2026-10-12T04:45:34.557520+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5111.26,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:24.622629+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15221.58,timeout
+run_20261012T044409Z,2026-10-12T04:45:25.420022+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.89,timeout
+run_20261012T044409Z,2026-10-12T04:45:27.006663+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,13565.87,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:30.846356+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,9739.79,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:31.219055+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,9796.25,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:25.808842+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15209.38,timeout
+run_20261012T044409Z,2026-10-12T04:45:36.013289+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5124.14,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:26.217190+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15215.1,timeout
+run_20261012T044409Z,2026-10-12T04:45:26.602366+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15015.43,timeout
+run_20261012T044409Z,2026-10-12T04:45:27.377560+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15222.25,timeout
+run_20261012T044409Z,2026-10-12T04:45:28.940729+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,14302.19,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:38.492503+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5113.73,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:34.200312+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10145.0,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:29.329876+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15316.15,timeout
+run_20261012T044409Z,2026-10-12T04:45:39.561688+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5304.53,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:29.703810+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15234.21,timeout
+run_20261012T044409Z,2026-10-12T04:45:39.897267+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5118.0,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:30.090941+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15017.25,timeout
+run_20261012T044409Z,2026-10-12T04:45:30.458352+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,14884.97,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:35.286164+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10073.51,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:40.258431+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5122.67,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:35.643379+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10111.5,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:31.977268+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15253.14,timeout
+run_20261012T044409Z,2026-10-12T04:45:41.975134+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5312.32,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:32.351915+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15020.21,timeout
+run_20261012T044409Z,2026-10-12T04:45:42.657337+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5140.08,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:32.709880+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15217.37,timeout
+run_20261012T044409Z,2026-10-12T04:45:33.097376+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15202.57,timeout
+run_20261012T044409Z,2026-10-12T04:45:33.455715+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15212.08,timeout
+run_20261012T044409Z,2026-10-12T04:45:38.865231+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10149.92,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:33.828411+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15209.83,timeout
+run_20261012T044409Z,2026-10-12T04:45:44.675127+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5118.07,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:34.930823+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15197.65,timeout
+run_20261012T044409Z,2026-10-12T04:45:45.015323+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5134.6,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:40.586567+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10122.12,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:45.676434+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5124.06,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:46.002660+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5117.39,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:36.369603+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,14962.45,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:36.725159+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15207.42,timeout
+run_20261012T044409Z,2026-10-12T04:45:37.080115+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15024.86,timeout
+run_20261012T044409Z,2026-10-12T04:45:46.993698+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5125.88,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:47.325612+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5124.84,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:37.453341+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15024.37,timeout
+run_20261012T044409Z,2026-10-12T04:45:47.647303+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5130.95,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:37.796130+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15009.67,timeout
+run_20261012T044409Z,2026-10-12T04:45:38.152658+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15022.19,timeout
+run_20261012T044409Z,2026-10-12T04:45:48.295729+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5112.16,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:39.190065+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15014.37,timeout
+run_20261012T044409Z,2026-10-12T04:45:49.268768+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5127.6,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:50.234849+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5127.17,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:40.947960+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15011.56,timeout
+run_20261012T044409Z,2026-10-12T04:45:41.290246+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15016.0,timeout
+run_20261012T044409Z,2026-10-12T04:45:41.631117+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15021.42,timeout
+run_20261012T044409Z,2026-10-12T04:45:51.511175+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5142.45,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:42.307559+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15229.49,timeout
+run_20261012T044409Z,2026-10-12T04:45:52.443970+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5115.32,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:42.998506+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15017.64,timeout
+run_20261012T044409Z,2026-10-12T04:45:43.328605+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.8,timeout
+run_20261012T044409Z,2026-10-12T04:45:43.681702+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15015.18,timeout
+run_20261012T044409Z,2026-10-12T04:45:53.683778+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5118.75,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:43.994781+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15012.97,timeout
+run_20261012T044409Z,2026-10-12T04:45:44.345662+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15015.73,timeout
+run_20261012T044409Z,2026-10-12T04:45:54.313537+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5111.7,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:49.596025+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10044.65,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:54.622920+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5126.56,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:49.908120+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10057.71,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:45.334845+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15024.81,timeout
+run_20261012T044409Z,2026-10-12T04:45:50.871356+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,9987.4,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:51.181504+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10125.22,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:46.344221+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,14990.57,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:46.667318+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15021.55,timeout
+run_20261012T044409Z,2026-10-12T04:45:51.805350+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10042.62,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:57.674010+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5109.76,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:57.983965+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5115.54,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:47.972861+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15215.96,timeout
+run_20261012T044409Z,2026-10-12T04:45:48.618792+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15009.73,timeout
+run_20261012T044409Z,2026-10-12T04:45:58.584672+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5307.73,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:48.942672+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15019.54,timeout
+run_20261012T044409Z,2026-10-12T04:45:59.466551+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5148.5,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:00.057809+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5122.38,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:55.231227+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10005.6,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:00.355912+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5134.75,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:50.545977+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15009.84,timeout
+run_20261012T044409Z,2026-10-12T04:45:55.847666+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10104.55,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:01.234566+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5250.77,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:56.462954+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10048.41,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:52.147299+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15017.74,timeout
+run_20261012T044409Z,2026-10-12T04:46:02.116746+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5130.04,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:52.757275+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15014.35,timeout
+run_20261012T044409Z,2026-10-12T04:45:53.066910+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15226.81,timeout
+run_20261012T044409Z,2026-10-12T04:45:53.390742+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15016.83,timeout
+run_20261012T044409Z,2026-10-12T04:46:03.569547+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5117.77,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:58.864582+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10113.61,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:54.008747+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15016.49,timeout
+run_20261012T044409Z,2026-10-12T04:46:03.865088+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5343.18,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:04.143483+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5117.39,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:04.714885+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5122.78,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:59.777660+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10070.93,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:05.009984+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5110.13,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:54.939056+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15231.4,timeout
+run_20261012T044409Z,2026-10-12T04:45:55.557031+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15031.36,timeout
+run_20261012T044409Z,2026-10-12T04:46:05.579516+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5114.46,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:00.956175+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10132.75,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:56.154112+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,14991.9,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:06.146275+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5122.69,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:06.424368+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5120.83,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:01.544130+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10102.01,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:56.771626+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15011.08,timeout
+run_20261012T044409Z,2026-10-12T04:45:57.068165+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15242.29,timeout
+run_20261012T044409Z,2026-10-12T04:45:57.377778+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15011.22,timeout
+run_20261012T044409Z,2026-10-12T04:46:02.411137+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10094.71,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:58.262004+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15014.82,timeout
+run_20261012T044409Z,2026-10-12T04:46:02.997967+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10300.41,HTTP 500
+run_20261012T044409Z,2026-10-12T04:45:59.172847+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15016.44,timeout
+run_20261012T044409Z,2026-10-12T04:46:10.060917+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5114.34,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:00.650235+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15206.91,timeout
+run_20261012T044409Z,2026-10-12T04:46:10.881090+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5122.51,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:11.422631+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5150.12,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:01.822800+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15216.58,timeout
+run_20261012T044409Z,2026-10-12T04:46:11.965876+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5128.89,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:02.702174+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15010.82,timeout
+run_20261012T044409Z,2026-10-12T04:46:03.275866+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15010.55,timeout
+run_20261012T044409Z,2026-10-12T04:46:13.331928+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5113.15,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:13.595798+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5126.22,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:08.401444+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10323.46,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:13.874637+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5122.84,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:14.135658+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5111.48,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:09.219593+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10048.4,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:04.437395+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15022.49,timeout
+run_20261012T044409Z,2026-10-12T04:46:05.291588+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15017.88,timeout
+run_20261012T044409Z,2026-10-12T04:46:15.460729+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5324.7,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:05.855410+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.47,timeout
+run_20261012T044409Z,2026-10-12T04:46:06.715978+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15019.52,timeout
+run_20261012T044409Z,2026-10-12T04:46:16.794331+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5123.26,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:06.993111+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15022.84,timeout
+run_20261012T044409Z,2026-10-12T04:46:07.270120+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15024.3,timeout
+run_20261012T044409Z,2026-10-12T04:46:07.549518+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15010.95,timeout
+run_20261012T044409Z,2026-10-12T04:46:07.843869+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.23,timeout
+run_20261012T044409Z,2026-10-12T04:46:12.785645+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10106.43,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:08.105793+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15008.46,timeout
+run_20261012T044409Z,2026-10-12T04:46:08.663630+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15012.93,timeout
+run_20261012T044409Z,2026-10-12T04:46:18.636468+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5135.16,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:08.959684+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15255.41,timeout
+run_20261012T044409Z,2026-10-12T04:46:09.513881+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.77,timeout
+run_20261012T044409Z,2026-10-12T04:46:09.780041+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15023.45,timeout
+run_20261012T044409Z,2026-10-12T04:46:10.322030+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15018.31,timeout
+run_20261012T044409Z,2026-10-12T04:46:10.614680+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15217.86,timeout
+run_20261012T044409Z,2026-10-12T04:46:11.160919+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15016.82,timeout
+run_20261012T044409Z,2026-10-12T04:46:21.207379+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5117.93,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:11.704029+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15019.04,timeout
+run_20261012T044409Z,2026-10-12T04:46:12.244888+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15016.53,timeout
+run_20261012T044409Z,2026-10-12T04:46:22.216931+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5120.26,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:12.522380+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15015.06,timeout
+run_20261012T044409Z,2026-10-12T04:46:22.490231+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5112.69,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:17.589311+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10039.77,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:13.060065+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15018.08,timeout
+run_20261012T044409Z,2026-10-12T04:46:18.110981+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10126.88,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:23.233034+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5116.11,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:14.399646+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15208.7,timeout
+run_20261012T044409Z,2026-10-12T04:46:24.490712+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5126.68,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:19.658771+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10063.84,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:14.678949+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15212.1,timeout
+run_20261012T044409Z,2026-10-12T04:46:14.929537+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15011.21,timeout
+run_20261012T044409Z,2026-10-12T04:46:15.206209+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15010.93,timeout
+run_20261012T044409Z,2026-10-12T04:46:25.508248+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5148.47,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:15.746471+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15010.26,timeout
+run_20261012T044409Z,2026-10-12T04:46:15.993305+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15038.41,timeout
+run_20261012T044409Z,2026-10-12T04:46:26.003953+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5335.82,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:26.236694+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5123.03,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:16.272223+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15210.4,timeout
+run_20261012T044409Z,2026-10-12T04:46:16.520632+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15207.55,timeout
+run_20261012T044409Z,2026-10-12T04:46:26.731100+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5324.24,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:21.980948+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10080.92,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:17.061274+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15213.99,timeout
+run_20261012T044409Z,2026-10-12T04:46:17.308928+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15009.13,timeout
+run_20261012T044409Z,2026-10-12T04:46:27.236610+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5314.82,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:17.834361+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15011.24,timeout
+run_20261012T044409Z,2026-10-12T04:46:27.734037+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5114.43,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:22.728488+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10250.97,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:28.204259+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5161.28,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:18.358057+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15010.64,timeout
+run_20261012T044409Z,2026-10-12T04:46:28.705872+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5131.35,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:18.883404+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15019.76,timeout
+run_20261012T044409Z,2026-10-12T04:46:19.145071+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15018.42,timeout
+run_20261012T044409Z,2026-10-12T04:46:24.259107+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10069.34,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:19.409910+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15010.98,timeout
+run_20261012T044409Z,2026-10-12T04:46:19.921716+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,15004.18,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:29.683588+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5369.3,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:20.183388+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15011.67,timeout
+run_20261012T044409Z,2026-10-12T04:46:29.918183+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5312.02,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:25.246569+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10122.59,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:20.432084+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15204.49,timeout
+run_20261012T044409Z,2026-10-12T04:46:20.694131+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15020.87,timeout
+run_20261012T044409Z,2026-10-12T04:46:20.944253+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15015.68,timeout
+run_20261012T044409Z,2026-10-12T04:46:21.470471+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15233.68,timeout
+run_20261012T044409Z,2026-10-12T04:46:21.710368+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15012.71,timeout
+run_20261012T044409Z,2026-10-12T04:46:31.617246+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5115.4,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:31.847535+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5126.43,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:26.992579+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,10317.21,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:32.330315+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5267.86,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:32.812625+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5119.76,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:22.993178+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.91,timeout
+run_20261012T044409Z,2026-10-12T04:46:23.502046+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15019.71,timeout
+run_20261012T044409Z,2026-10-12T04:46:33.520567+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5114.58,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:23.750989+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15244.51,timeout
+run_20261012T044409Z,2026-10-12T04:46:23.996042+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15016.06,timeout
+run_20261012T044409Z,2026-10-12T04:46:34.003301+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5126.86,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:24.753930+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15012.41,timeout
+run_20261012T044409Z,2026-10-12T04:46:34.938949+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5118.41,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:25.000353+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15202.56,timeout
+run_20261012T044409Z,2026-10-12T04:46:35.401013+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5115.95,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:25.742121+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.02,timeout
+run_20261012T044409Z,2026-10-12T04:46:36.131220+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5114.6,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:26.500454+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15027.36,timeout
+run_20261012T044409Z,2026-10-12T04:46:36.331181+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5317.88,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:36.811097+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5136.55,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:37.040555+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,500,5116.0,HTTP 500
+run_20261012T044409Z,2026-10-12T04:46:27.471975+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15026.86,timeout
+run_20261012T044409Z,2026-10-12T04:46:27.984556+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15022.64,timeout
+run_20261012T044409Z,2026-10-12T04:46:28.474635+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15009.85,timeout
+run_20261012T044409Z,2026-10-12T04:46:28.954191+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15248.63,timeout
+run_20261012T044409Z,2026-10-12T04:46:29.191889+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15220.63,timeout
+run_20261012T044409Z,2026-10-12T04:46:29.435191+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15205.52,timeout
+run_20261012T044409Z,2026-10-12T04:46:30.179877+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15228.93,timeout
+run_20261012T044409Z,2026-10-12T04:46:30.395287+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15223.2,timeout
+run_20261012T044409Z,2026-10-12T04:46:30.657059+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15232.78,timeout
+run_20261012T044409Z,2026-10-12T04:46:30.881358+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15012.86,timeout
+run_20261012T044409Z,2026-10-12T04:46:31.138732+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15227.28,timeout
+run_20261012T044409Z,2026-10-12T04:46:31.374003+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.94,timeout
+run_20261012T044409Z,2026-10-12T04:46:32.094997+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15024.15,timeout
+run_20261012T044409Z,2026-10-12T04:46:32.565549+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15018.44,timeout
+run_20261012T044409Z,2026-10-12T04:46:33.043514+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15021.46,timeout
+run_20261012T044409Z,2026-10-12T04:46:33.292048+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15020.89,timeout
+run_20261012T044409Z,2026-10-12T04:46:33.755707+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15023.98,timeout
+run_20261012T044409Z,2026-10-12T04:46:34.227057+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15204.96,timeout
+run_20261012T044409Z,2026-10-12T04:46:34.471053+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15021.72,timeout
+run_20261012T044409Z,2026-10-12T04:46:34.703391+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15025.06,timeout
+run_20261012T044409Z,2026-10-12T04:46:35.184510+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15021.83,timeout
+run_20261012T044409Z,2026-10-12T04:46:35.648303+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15009.91,timeout
+run_20261012T044409Z,2026-10-12T04:46:35.868844+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15019.32,timeout
+run_20261012T044409Z,2026-10-12T04:46:36.592827+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.98,timeout
+run_20261012T044409Z,2026-10-12T04:46:37.275508+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15027.61,timeout
+run_20261012T044409Z,2026-10-12T04:46:37.508127+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15023.35,timeout
+run_20261012T044409Z,2026-10-12T04:46:37.738081+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15009.02,timeout
+run_20261012T044409Z,2026-10-12T04:46:37.973382+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15015.67,timeout
+run_20261012T044409Z,2026-10-12T04:46:38.204316+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15010.63,timeout
+run_20261012T044409Z,2026-10-12T04:46:38.437386+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15037.23,timeout
+run_20261012T044409Z,2026-10-12T04:46:38.670944+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15027.58,timeout
+run_20261012T044409Z,2026-10-12T04:46:38.890490+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15023.85,timeout
+run_20261012T044409Z,2026-10-12T04:46:39.121799+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15232.94,timeout
+run_20261012T044409Z,2026-10-12T04:46:39.355487+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15010.84,timeout
+run_20261012T044409Z,2026-10-12T04:46:39.591614+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15020.44,timeout
+run_20261012T044409Z,2026-10-12T04:46:39.799599+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15017.91,timeout
+run_20261012T044409Z,2026-10-12T04:46:40.046224+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15204.16,timeout
+run_20261012T044409Z,2026-10-12T04:46:40.357060+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15016.29,timeout
+run_20261012T044409Z,2026-10-12T04:46:40.744700+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15014.44,timeout
+run_20261012T044409Z,2026-10-12T04:46:41.149847+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.52,timeout
+run_20261012T044409Z,2026-10-12T04:46:41.552012+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.86,timeout
+run_20261012T044409Z,2026-10-12T04:46:41.947699+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15023.23,timeout
+run_20261012T044409Z,2026-10-12T04:46:42.355871+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15018.17,timeout
+run_20261012T044409Z,2026-10-12T04:46:42.758063+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15042.41,timeout
+run_20261012T044409Z,2026-10-12T04:46:43.144637+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15025.84,timeout
+run_20261012T044409Z,2026-10-12T04:46:43.546072+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15028.05,timeout
+run_20261012T044409Z,2026-10-12T04:46:43.950662+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15013.05,timeout
+run_20261012T044409Z,2026-10-12T04:46:44.349294+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15015.53,timeout
+run_20261012T044409Z,2026-10-12T04:46:44.756794+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15031.39,timeout
+run_20261012T044409Z,2026-10-12T04:46:45.159202+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15021.23,timeout
+run_20261012T044409Z,2026-10-12T04:46:45.553266+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15014.22,timeout
+run_20261012T044409Z,2026-10-12T04:46:45.948616+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15017.45,timeout
+run_20261012T044409Z,2026-10-12T04:46:46.347016+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15012.76,timeout
+run_20261012T044409Z,2026-10-12T04:46:46.758460+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15014.66,timeout
+run_20261012T044409Z,2026-10-12T04:46:47.149939+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15017.62,timeout
+run_20261012T044409Z,2026-10-12T04:46:47.546892+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15012.55,timeout
+run_20261012T044409Z,2026-10-12T04:46:47.952375+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15025.34,timeout
+run_20261012T044409Z,2026-10-12T04:46:48.359956+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15019.1,timeout
+run_20261012T044409Z,2026-10-12T04:46:48.745255+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15022.15,timeout
+run_20261012T044409Z,2026-10-12T04:46:49.148201+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15021.54,timeout
+run_20261012T044409Z,2026-10-12T04:46:49.556828+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15017.1,timeout
+run_20261012T044409Z,2026-10-12T04:46:49.955481+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15023.72,timeout
+run_20261012T044409Z,2026-10-12T04:46:50.346302+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15017.48,timeout
+run_20261012T044409Z,2026-10-12T04:46:50.747795+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,,15019.18,timeout
+run_20261012T044409Z,2026-10-12T04:46:51.152191+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,14651.06,
+run_20261012T044409Z,2026-10-12T04:46:51.557031+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,14318.7,
+run_20261012T044409Z,2026-10-12T04:46:51.956706+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,13927.3,
+run_20261012T044409Z,2026-10-12T04:46:52.357535+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,13552.44,
+run_20261012T044409Z,2026-10-12T04:46:52.747450+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,13229.71,
+run_20261012T044409Z,2026-10-12T04:46:53.156271+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,12854.9,
+run_20261012T044409Z,2026-10-12T04:46:53.559270+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,12457.0,
+run_20261012T044409Z,2026-10-12T04:46:53.953912+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,12126.12,
+run_20261012T044409Z,2026-10-12T04:46:54.347227+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,11742.75,
+run_20261012T044409Z,2026-10-12T04:46:54.748228+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,11365.89,
+run_20261012T044409Z,2026-10-12T04:46:55.157269+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,11026.28,
+run_20261012T044409Z,2026-10-12T04:46:55.556544+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,10631.54,
+run_20261012T044409Z,2026-10-12T04:46:55.959307+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,10414.48,
+run_20261012T044409Z,2026-10-12T04:46:56.350360+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,10040.45,
+run_20261012T044409Z,2026-10-12T04:46:56.749825+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,9654.66,
+run_20261012T044409Z,2026-10-12T04:46:57.154960+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,9438.77,
+run_20261012T044409Z,2026-10-12T04:46:57.557655+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,9121.9,
+run_20261012T044409Z,2026-10-12T04:46:57.948538+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,8842.17,
+run_20261012T044409Z,2026-10-12T04:46:58.353252+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,8467.05,
+run_20261012T044409Z,2026-10-12T04:46:58.756554+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,8120.1,
+run_20261012T044409Z,2026-10-12T04:46:59.160176+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,7756.09,
+run_20261012T044409Z,2026-10-12T04:46:59.548666+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,7442.01,
+run_20261012T044409Z,2026-10-12T04:46:59.953980+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,7053.44,
+run_20261012T044409Z,2026-10-12T04:47:00.346318+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,6681.43,
+run_20261012T044409Z,2026-10-12T04:47:00.747273+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,6326.48,
+run_20261012T044409Z,2026-10-12T04:47:01.147023+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,5931.16,
+run_20261012T044409Z,2026-10-12T04:47:01.562411+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,5605.96,
+run_20261012T044409Z,2026-10-12T04:47:01.946938+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,5226.38,
+run_20261012T044409Z,2026-10-12T04:47:02.352836+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,4831.12,
+run_20261012T044409Z,2026-10-12T04:47:02.756554+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,4513.59,
+run_20261012T044409Z,2026-10-12T04:47:03.159468+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,4129.24,
+run_20261012T044409Z,2026-10-12T04:47:03.549092+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,3751.09,
+run_20261012T044409Z,2026-10-12T04:47:03.956051+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,3352.69,
+run_20261012T044409Z,2026-10-12T04:47:04.353254+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,3030.72,
+run_20261012T044409Z,2026-10-12T04:47:04.756447+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,2630.05,
+run_20261012T044409Z,2026-10-12T04:47:05.159468+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,2242.23,
+run_20261012T044409Z,2026-10-12T04:47:05.546339+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,1859.9,
+run_20261012T044409Z,2026-10-12T04:47:05.948562+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,1524.46,
+run_20261012T044409Z,2026-10-12T04:47:06.356396+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,1131.65,
+run_20261012T044409Z,2026-10-12T04:47:06.751296+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,748.28,
+run_20261012T044409Z,2026-10-12T04:47:07.157317+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,359.79,
+run_20261012T044409Z,2026-10-12T04:47:07.564350+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,175.01,
+run_20261012T044409Z,2026-10-12T04:47:07.949908+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,164.36,
+run_20261012T044409Z,2026-10-12T04:47:08.350036+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,164.87,
+run_20261012T044409Z,2026-10-12T04:47:08.759757+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,187.35,
+run_20261012T044409Z,2026-10-12T04:47:09.158827+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,211.17,
+run_20261012T044409Z,2026-10-12T04:47:09.548932+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,187.89,
+run_20261012T044409Z,2026-10-12T04:47:09.963954+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,194.07,
+run_20261012T044409Z,2026-10-12T04:47:10.357821+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,178.18,
+run_20261012T044409Z,2026-10-12T04:47:10.746070+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,176.58,
+run_20261012T044409Z,2026-10-12T04:47:11.158452+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,176.44,
+run_20261012T044409Z,2026-10-12T04:47:11.557741+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,173.59,
+run_20261012T044409Z,2026-10-12T04:47:11.946570+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,176.44,
+run_20261012T044409Z,2026-10-12T04:47:12.354189+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,184.12,
+run_20261012T044409Z,2026-10-12T04:47:12.751543+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,155.91,
+run_20261012T044409Z,2026-10-12T04:47:13.155470+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,183.37,
+run_20261012T044409Z,2026-10-12T04:47:13.547075+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,224.81,
+run_20261012T044409Z,2026-10-12T04:47:13.951714+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,188.14,
+run_20261012T044409Z,2026-10-12T04:47:14.353252+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,238.12,
+run_20261012T044409Z,2026-10-12T04:47:14.756652+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,173.97,
+run_20261012T044409Z,2026-10-12T04:47:15.157785+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,170.9,
+run_20261012T044409Z,2026-10-12T04:47:15.546036+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,185.91,
+run_20261012T044409Z,2026-10-12T04:47:15.954126+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,187.53,
+run_20261012T044409Z,2026-10-12T04:47:16.356399+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,160.19,
+run_20261012T044409Z,2026-10-12T04:47:16.747738+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,162.13,
+run_20261012T044409Z,2026-10-12T04:47:17.157241+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,181.72,
+run_20261012T044409Z,2026-10-12T04:47:17.556156+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,174.2,
+run_20261012T044409Z,2026-10-12T04:47:17.959312+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,179.03,
+run_20261012T044409Z,2026-10-12T04:47:18.348565+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,171.06,
+run_20261012T044409Z,2026-10-12T04:47:18.752765+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,160.7,
+run_20261012T044409Z,2026-10-12T04:47:19.155746+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,159.65,
+run_20261012T044409Z,2026-10-12T04:47:19.551758+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,188.59,
+run_20261012T044409Z,2026-10-12T04:47:19.952474+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,176.9,
+run_20261012T044409Z,2026-10-12T04:47:20.357448+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,163.38,
+run_20261012T044409Z,2026-10-12T04:47:20.745193+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,178.83,
+run_20261012T044409Z,2026-10-12T04:47:21.147399+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,156.72,
+run_20261012T044409Z,2026-10-12T04:47:21.550933+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,162.14,
+run_20261012T044409Z,2026-10-12T04:47:21.958742+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,159.64,
+run_20261012T044409Z,2026-10-12T04:47:22.358741+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,154.68,
+run_20261012T044409Z,2026-10-12T04:47:22.747019+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,164.63,
+run_20261012T044409Z,2026-10-12T04:47:23.155951+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,162.5,
+run_20261012T044409Z,2026-10-12T04:47:23.558210+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,174.99,
+run_20261012T044409Z,2026-10-12T04:47:23.947638+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,163.43,
+run_20261012T044409Z,2026-10-12T04:47:24.349412+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,196.3,
+run_20261012T044409Z,2026-10-12T04:47:24.756613+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,165.86,
+run_20261012T044409Z,2026-10-12T04:47:25.159621+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,166.0,
+run_20261012T044409Z,2026-10-12T04:47:25.551020+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,178.42,
+run_20261012T044409Z,2026-10-12T04:47:25.952093+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,175.29,
+run_20261012T044409Z,2026-10-12T04:47:26.355830+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,168.89,
+run_20261012T044409Z,2026-10-12T04:47:26.745511+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,166.94,
+run_20261012T044409Z,2026-10-12T04:47:27.153889+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,158.87,
+run_20261012T044409Z,2026-10-12T04:47:27.555925+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,195.51,
+run_20261012T044409Z,2026-10-12T04:47:27.950358+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,176.74,
+run_20261012T044409Z,2026-10-12T04:47:28.353806+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,175.26,
+run_20261012T044409Z,2026-10-12T04:47:28.756982+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,165.36,
+run_20261012T044409Z,2026-10-12T04:47:29.151895+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,198.68,
+run_20261012T044409Z,2026-10-12T04:47:29.552064+00:00,POST,POST,https://o2mke4696e.execute-api.us-east-1.amazonaws.com/lab/logistics/pedidos,201,166.35,
