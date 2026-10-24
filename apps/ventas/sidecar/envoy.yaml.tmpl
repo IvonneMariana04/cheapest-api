@@ -28,19 +28,19 @@ static_resources:
                             # TODO [1]: Calcule el timeout total de la ruta.
                             # Debe cubrir: (connect_timeout + upstream response) × (1 intento original + num_retries) + backoff acumulado.
                             # Un timeout demasiado corto aborta los reintentos; uno demasiado largo acumula conexiones en espera.
-                            timeout: ???s
+                            timeout: 9s
                             retry_policy:
                               retry_on: "5xx,reset,connect-failure,gateway-error"
                               # TODO [2]: ¿Cuántos reintentos son suficientes para cubrir fallos transitorios
                               # sin amplificar la carga más allá de 2× (ASR-2)?
-                              num_retries: ???
+                              num_retries: 1
                               retry_back_off:
                                 # TODO [3]: Defina el intervalo base del backoff exponencial (en segundos, p. ej. 0.1s).
                                 # Recuerde que Envoy aplica ±25 % de jitter automáticamente sobre este valor.
-                                base_interval: ???s
+                                base_interval: 0.1s
                                 # TODO [4]: Defina el intervalo máximo del backoff (en segundos).
                                 # Evite valores tan altos que el timeout de la ruta expire antes del último reintento.
-                                max_interval: ???s
+                                max_interval: 0.5s
                               retry_host_predicate:
                                 - name: envoy.retry_host_predicates.previous_hosts
                                   typed_config:
@@ -90,12 +90,12 @@ static_resources:
         # TODO [5]: ¿Cuántos errores 5xx consecutivos deben ocurrir para abrir el circuito?
         # Valor bajo → más sensible (abre rápido, más falsos positivos).
         # Valor alto → más tolerante (tarda más en proteger al servicio).
-        consecutive_5xx: ???
+        consecutive_5xx: 3
         interval: 10s
         # TODO [6]: ¿Cuánto tiempo debe permanecer el circuito OPEN antes de intentar HALF-OPEN?
         # Debe ser inferior a la duración del fallo inyectado en Inventario (durationMs del
         # endpoint de caos) para que el estado HALF-OPEN pueda detectar la recuperación.
-        base_ejection_time: ???s
+        base_ejection_time: 5s
         max_ejection_percent: 100
         enforcing_consecutive_5xx: 100
         enforcing_success_rate: 0
