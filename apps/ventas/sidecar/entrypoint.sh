@@ -1,10 +1,10 @@
 #!/bin/sh
 set -e
 
-# Upstream defaults — override per environment:
-#   docker-compose  → inventario:3002
-#   ECS same-task   → localhost:3002
-#   ECS cross-task  → <ALB or Cloud Map DNS>:3002
+# Upstream defaults â€” override per environment:
+#   docker-compose  â†’ inventario:3002
+#   ECS same-task   â†’ localhost:3002
+#   ECS cross-task  â†’ <ALB or Cloud Map DNS>:3002
 INVENTARIO_UPSTREAM_HOST="${INVENTARIO_UPSTREAM_HOST:-inventario}"
 INVENTARIO_UPSTREAM_PORT="${INVENTARIO_UPSTREAM_PORT:-3002}"
 
