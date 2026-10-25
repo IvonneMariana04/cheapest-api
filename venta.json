@@ -1,0 +1,13 @@
+﻿{
+  "tiendaId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+  "fechaHora": "2026-10-14T10:00:00Z",
+  "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+  "items": [
+    {
+      "productoExternoId": "f5f700ef-d89b-4b5e-b5f8-3bd7885a8494",
+      "productoId": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+      "cantidad": 1,
+      "precioUnitario": 25.5
+    }
+  ]
+}
