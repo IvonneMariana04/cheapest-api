@@ -1,0 +1,8 @@
+﻿{
+    "PENDING":  0,
+    "DELIVERED":  2,
+    "FAILED":  42,
+    "pendienteMasAntiguaCreatedAt":  null,
+    "ultimoDeliveredAt":  "2026-10-24T23:09:09.122Z",
+    "now":  "2026-10-25T06:31:58.502Z"
+}

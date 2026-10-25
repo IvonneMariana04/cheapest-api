@@ -1,13 +1,13 @@
 ﻿{
-  "tiendaId": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
-  "fechaHora": "2026-10-14T10:00:00Z",
-  "monedaId": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+  "tiendaId": "9a2f2e7b-40c4-4c5f-a37c-baf722e18ab9",
+  "fechaHora": "2026-10-25T10:00:00.000Z",
+  "monedaId": "550e8400-e29b-41d4-a716-446655440000",
   "items": [
     {
-      "productoExternoId": "f5f700ef-d89b-4b5e-b5f8-3bd7885a8494",
+      "productoExternoId": "cf1c5e81-fee9-4977-b229-a7ca8fcb9dcf",
       "productoId": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
-      "cantidad": 1,
-      "precioUnitario": 25.5
+      "cantidad": 2,
+      "precioUnitario": 26
     }
   ]
 }

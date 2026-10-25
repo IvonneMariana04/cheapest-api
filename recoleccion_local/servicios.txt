@@ -1,0 +1,5 @@
+﻿postgres
+logistica
+inventario
+ventas-sidecar
+ventas

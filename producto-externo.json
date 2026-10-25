@@ -1,0 +1,9 @@
+﻿{
+  "tiendaId": "9a2f2e7b-40c4-4c5f-a37c-baf722e18ab9",
+  "codigoBarras": "7501234567890",
+  "nombre": "Coca Cola 2L Test",
+  "categoria": "Bebidas",
+  "precioBase": 25.5,
+  "monedaId": "550e8400-e29b-41d4-a716-446655440000",
+  "cantidad": 100
+}

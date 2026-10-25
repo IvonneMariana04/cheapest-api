@@ -1,0 +1,6 @@
+﻿NAME                            IMAGE                         COMMAND                  SERVICE          CREATED       STATUS                  PORTS
+cheapest-api-inventario-1       cheapest-api-inventario       "docker-entrypoint.sΓÇª"   inventario       9 hours ago   Up 6 hours              0.0.0.0:3002->3002/tcp, [::]:3002->3002/tcp
+cheapest-api-logistica-1        cheapest-api-logistica        "docker-entrypoint.sΓÇª"   logistica        9 hours ago   Up 8 hours              0.0.0.0:3001->3001/tcp, [::]:3001->3001/tcp
+cheapest-api-postgres-1         postgres:15-alpine            "docker-entrypoint.sΓÇª"   postgres         13 days ago   Up 12 hours (healthy)   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+cheapest-api-ventas-1           cheapest-api-ventas           "docker-entrypoint.sΓÇª"   ventas           9 hours ago   Up 9 hours              0.0.0.0:3003->3003/tcp, [::]:3003->3003/tcp
+cheapest-api-ventas-sidecar-1   cheapest-api-ventas-sidecar   "/entrypoint.sh"         ventas-sidecar   9 hours ago   Up 9 hours              0.0.0.0:9901->9901/tcp, [::]:9901->9901/tcp
